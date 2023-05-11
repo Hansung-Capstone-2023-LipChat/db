@@ -11,7 +11,7 @@ import time
 
 
 #Firebase database 인증 및 앱 초기화
-cred = credentials.Certificate('lip-chat-firebase-adminsdk-xxjbl-0b990acfb6.json')
+cred = credentials.Certificate('./firebase_json/lip-chat-firebase-adminsdk-xxjbl-0b990acfb6.json')
 firebase_admin.initialize_app(cred,
                               {"databaseURL": 'https://lip-chat-default-rtdb.firebaseio.com/'})
 # 유저 uid를 받아오기
