@@ -1,5 +1,5 @@
 '''
-시트 2와 같은 방법으로 구현한 DB 전송 코드
+시트 2와 같은 방법으로 구현한 DB 전송 코드 (서버에서 립리딩)
 
 참고(시트): https://docs.google.com/spreadsheets/d/1HqJbM_TcvBodEGOaOuBdgZ0X3h86_WhdqoY1hccEutc/edit?usp=sharing
 '''
@@ -19,29 +19,25 @@ name = 'dbtest'
 
 # 연산 직전
 cal_ing_text = 1
-cal_ing_face = 1
-ref = db.reference('cal_ing/'+name)
-ref.update({'text': cal_ing_text,
-            'face': cal_ing_face})
+ref = db.reference('flag/'+name)
+ref.update({'text': cal_ing_text}) # 텍스트 연산 중
+face_id = db.reference('flag/'+name+'/current_face_id').get() #face_id 가져오기
 
 time.sleep(2) #연산 중
 
 # 연산 후
 timestr = time.strftime('%Y-%m-%d %H:%M:%S')
 text = "안녕하세요?"
-face_id = 0
 
 cal_ing_text = 0
-cal_ing_face = 0
 ref = db.reference('result')
 ref.push({'uid': name,
           'text': text,
           'face_id': face_id,
           'time': timestr})
 
-ref = db.reference('cal_ing/'+name)
-ref.update({'text': cal_ing_text,
-            'face': cal_ing_face})
+ref = db.reference('flag/'+name)
+ref.update({'text': cal_ing_text}) #연산 종료 알림
 
 
 
