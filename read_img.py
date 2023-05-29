@@ -38,5 +38,7 @@ def read_image(collection_name, document_name):
     else:
         print('이미지 데이터가 없습니다.')
 
+faceid = "ex_face1"
+
 # 이미지 읽기 호출
-read_image('collection_name', 'document_name')
+read_image('face_img', faceid)
