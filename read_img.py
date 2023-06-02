@@ -9,7 +9,7 @@ import io
 from PIL import Image
 
 # 파이어베이스 서비스 계정 키 파일 경로
-cred = credentials.Certificate('firebase_json/iotcapston-firebase-adminsdk-t5vwf-5c4967f7bf.json')
+cred = credentials.Certificate('firebase_json/newlipchat-firebase-adminsdk-qjh2u-086df0f3dd.json')
 
 # 파이어베이스 앱 초기화
 firebase_admin.initialize_app(cred)
