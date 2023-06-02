@@ -17,9 +17,9 @@ firebase_admin.initialize_app(cred,
 # 유저 uid를 받아오기
 name = 'dbtest'
 
-if db.reference('flag/'+name+'/camera_on').get() == 1:
+if db.reference('flag/'+name+'/camera_on').get() == "1":
     # 연산 직전
-    cal_ing_face = 1
+    cal_ing_face = "1"
     ref = db.reference('flag/'+name)
     ref.update({'face': cal_ing_face}) # 얼굴 인식 중
 
@@ -28,6 +28,6 @@ if db.reference('flag/'+name+'/camera_on').get() == 1:
     # 연산 후
     face_id = "face1"
 
-    cal_ing_text = 0
+    cal_ing_text = "0"
     ref = db.reference('flag/'+name)
     ref.update({'face': cal_ing_text, 'current_face_id': face_id}) #연산 종료 알림, 얼굴 인식 결과 업데이트

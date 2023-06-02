@@ -18,7 +18,7 @@ firebase_admin.initialize_app(cred,
 name = 'dbtest'
 
 # 연산 직전
-cal_ing_text = 1
+cal_ing_text = "1"
 ref = db.reference('flag/'+name)
 ref.update({'text': cal_ing_text}) # 텍스트 연산 중
 face_id = db.reference('flag/'+name+'/current_face_id').get() #face_id 가져오기
@@ -29,7 +29,7 @@ time.sleep(2) #연산 중
 timestr = time.strftime('%Y-%m-%d %H:%M:%S')
 text = "안녕하세요?"
 
-cal_ing_text = 0
+cal_ing_text = "0"
 ref = db.reference('result')
 ref.push({'uid': name,
           'text': text,
