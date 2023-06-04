@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "newlipchat",
+  "private_key_id": "257573dc607183179c1fdaeabe5b9ae7f48ad947",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMxImSUHzqJG2M\nIGn45RnUN4YnlmLcOvuZv3pziJsf0vHF3+tjUkTq3gUvVS5LYJUGPbTRIf6AyXEo\nefX36L1LT7Eugg/463ce53lOZgI5cUaysydPactd5fRCn3f0diW2Eq9dMpBUOFMS\ngvfOrmx5zUaK3lBhSipcPAWhGyWqvD8CKFJfwtoeOcY8GvONLluoc8lK5EMzbXjL\nMtrqNLB5Vljrin7CbOqzjYSYeioQcXoyA8DOBqe/qKAlkKD2pmkRjJO4B8X7F9Ue\nhRCu2PVIC7OG/34hxhfzqJ1Zw2EDM3owWURnGzBZaSSzaiKjeXj/kCDZjOObf9EA\nsofzuX8DAgMBAAECggEAJKBhBSlddpomeCKSIgGEwbdeyTT2oPLx7xnXYtQD/0jB\nk0XOuljMWAB3h/RiD/yKG3AtKB0/AzVFBtrt2raoKVDrXejIx5sClyYLRjEr4691\n2GAAP42qYTTRIJuansEFVNB5yp9RPqdGgLCpd7AuWgkUPaGvWf+knRPlY+BRt/ya\nptRkJ1bLJoLyGBxKSUYJRfernovhrnOsERItnmPfeaTduYZKo1MPw8rBhyQg/obg\naQqARSlL0hM3vRBMsTa6czd1SUe51z+D6NmxIG2w6itG8kx0iK4cd5xvCcMqbMxL\noca2GI7eYuejBp0n3grjxKLfssoMW/OTfJKuIBWPFQKBgQD905fL6D4tpp0PNgW1\nZt9rsv/x6cw9uyTAjQkvclz2zRFCm9rnZHLuxPOnc752POW3s6es0LrxVkThbft4\niI9IJKqCXgOq6LCaiCqJhp4nfNAmac9Jpo3VuRm439z41oPDk99w/s7I9eu09nDv\nG90aNbXU780EQEzP/gJHPaasvQKBgQDOhWdfCysgNCxatjvM9cmUmRak8Fp1pWqM\nAQKTNEkzRLoRLoCPEOTJvWNLMzgzLFq5HaaHdMWaibANX2jU1+5+qulUNyaeXVVw\nJhdlux5O6oigjGnDfJ0/Nc98r2ZG+yb2kDH6/pRtjU9WVa9dwsEeDx7wJRFnF60u\nD0vmuHX2vwKBgE/3ZIBaF5S8RAjxxRSkZ0j/6MCnHrBoECkVhcpL5lveuUxZ27pA\nnDD7HaQow91uTBT25aF9VRgJTMQUqUANDc71tj5CLjee/VyB/5y6K4NXQCCJ/0M9\n1Lt7iE4FQRGoS3THVoK71Bvd1jd52JSMG7lRKIsATX/EXi684KzfEG6lAoGBAL5F\nMkPiqkz1RJgepWHkYWBC2xYDS5RwXoW2uISe+4H8o+EIkvE8g01K65xxCCo9hyhe\nJPtPnm8Ow+DOMmtGtjiFhotMdIwbOYgl0BCuIPJcKpygQSEWQlnmXc9mWjizU+Z+\nW04AFwgH1TyZnQQpVns3Oy3NOQdeTPPOrANZl3VJAoGBAIS8BJndJXcStCE5zzLw\nzaube6XkxSNz9pt4xOOJhFMlSh6yOxvXL8JlltQLspC/HQ/XnV9Zbsn0o5RJthKD\nDhOtOhklG76NBuoWx0mg855G08Lz+ul11N9STWUgDm4VW5nUAzp6UuIN2FkyvAYa\nSEBTCQIKXknOfjdgs8L4/1oD\n-----END PRIVATE KEY-----\n",
+  "client_email": "gcs-with-python@newlipchat.iam.gserviceaccount.com",
+  "client_id": "114141137114537802065",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gcs-with-python%40newlipchat.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
