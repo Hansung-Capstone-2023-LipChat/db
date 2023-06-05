@@ -15,6 +15,5 @@ firebase_admin.initialize_app(cred,
 name = 'dbtest'
 
 # 연산 직전
-cal_ing_text = "1"
 ref = db.reference('flag/'+name)
 ref.update({'camera_on': "1"})
